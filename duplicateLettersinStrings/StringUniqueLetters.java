@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class StringUniqueLetters {
 String str;
 char[] charArray;
-// n + n log n + n
+// n + nlogn + n, I think run time will be nlogn
 public StringUniqueLetters(String str){
 	this.str = str;
 }
@@ -19,6 +19,7 @@ public boolean isUnique() {
 
 	for(int i = 0; i < charArray.length - 1;i++) {
 		//Once Sorted any duplicates will be next to each other so check if so, not unique
+		
 		if(charArray[i] == charArray[i+1]){
 			
 		result = false;
