@@ -19,6 +19,7 @@ public boolean isUnique() {
 
 	for(int i = 0; i < charArray.length - 1;i++) {
 		//Once Sorted any duplicates will be next to each other so check if so, not unique
+		
 		if(charArray[i] == charArray[i+1]){
 			
 		result = false;
