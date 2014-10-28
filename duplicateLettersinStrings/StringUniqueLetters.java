@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class StringUniqueLetters {
 String str;
 char[] charArray;
-// n + n log n + n
+// n + nlogn + n, I think run time will be nlogn
 public StringUniqueLetters(String str){
 	this.str = str;
 }
